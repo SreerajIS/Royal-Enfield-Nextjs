@@ -188,18 +188,21 @@ export default function Home() {
             </div>
 
             <div className="absolute opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out" style={{
-              left: '5%',
-              bottom: '8%',
-              width: '55%',
-              height: '15%',
+              left: '70%',
+              top: '85%',
+              width: '30%',
+              height: '10%',
               zIndex: 25
             }}>
-              <button className="w-full h-full bg-[#FF0000] text-white font-bold rounded-[8px] flex items-center justify-center hover:bg-[#E60000] transition-colors duration-200" style={{
+              <button className="w-full h-full bg-[#FF0000] text-white font-bold rounded-[8px] flex items-center justify-center gap-2 hover:bg-[#E60000] transition-colors duration-200" style={{
                 fontFamily: 'Bebas Neue',
-                fontSize: 'min(1.2vw, 14px)',
+                fontSize: 'min(0.8vw, 14px)',
                 letterSpacing: '1px'
               }}>
                 BOOK A TEST RIDE
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" style={{ marginLeft: '4px' }}>
+                  <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
+                </svg>
               </button>
             </div>
           </div>
