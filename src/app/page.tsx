@@ -232,7 +232,7 @@ export default function Home() {
             <span className="text-[#FF9900] responsive-text-md font-normal" style={{fontFamily: 'Bebas Neue'}}>HIGHLIGHTS</span>
             <span className="text-[#FF9900] responsive-text-md font-normal" style={{fontFamily: 'Bebas Neue'}}>GALLERY</span>
             <span className="text-[#FF9900] responsive-text-md font-normal" style={{fontFamily: 'Bebas Neue'}}>REVIEWS</span>
-            <span className="text-[#FF9900] responsive-text-md font-normal" style={{fontFamily: 'Bebas Neue'}}>FAQ's</span>
+            <span className="text-[#FF9900] responsive-text-md font-normal" style={{fontFamily: 'Bebas Neue'}}>FAQ&apos;s</span>
           </div>
 
           <div className="absolute bg-[#FF9900]" style={{
