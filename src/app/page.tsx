@@ -199,7 +199,7 @@ export default function Home() {
                 fontSize: 'min(0.8vw, 14px)',
                 letterSpacing: '1px'
               }}>
-                BOOK A TEST RID
+                BOOK A TEST RIDE
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" style={{ marginLeft: '4px' }}>
                   <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
                 </svg>
