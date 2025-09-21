@@ -1,0 +1,21 @@
+export interface NavItem {
+  title: string;
+  href: string;
+  disabled?: boolean;
+}
+
+export interface SiteConfig {
+  name: string;
+  description: string;
+  url: string;
+  ogImage: string;
+  links: {
+    twitter: string;
+    github: string;
+  };
+}
+
+export interface PageProps {
+  params: { [key: string]: string | string[] };
+  searchParams: { [key: string]: string | string[] | undefined };
+}
