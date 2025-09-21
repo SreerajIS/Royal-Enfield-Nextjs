@@ -1,13 +1,16 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Explicitly disable experimental features that might trigger Turbopack
-  experimental: {
-    turbo: undefined,
-  },
-  // Use webpack bundler instead of Turbopack
-  webpack: (config) => {
-    return config;
+  // Ensure proper static file handling
+  trailingSlash: false,
+
+  // Disable experimental features for stable deployment
+  experimental: {},
+
+  // Image optimization settings
+  images: {
+    remotePatterns: [],
+    unoptimized: false,
   },
 };
 
